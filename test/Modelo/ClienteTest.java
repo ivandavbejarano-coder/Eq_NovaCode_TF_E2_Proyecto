@@ -1,6 +1,6 @@
 /*
  * Casos de prueba unitaria - Cliente
- * Equipo: Stackz
+ Equipo: NovaCode
  */
 package Modelo;
 

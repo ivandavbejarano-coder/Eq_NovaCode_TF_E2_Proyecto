@@ -1,6 +1,6 @@
 /*
  * Casos de prueba unitaria - PaqueteTuristicoUnico
- * Equipo: Stackz
+  Equipo: NovaCode
  */
 package Modelo;
 
