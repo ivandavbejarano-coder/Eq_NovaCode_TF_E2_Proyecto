@@ -6,7 +6,7 @@ package Modelo;
 
 /**
  *
- * @author CARLOS DURAN
+ * * @author Carlos Duran, Ivan David Bejarano Diaz, Zuri Saday Messu, Michael Steven Reyes
  */
 
 import java.io.Serializable;
@@ -146,7 +146,21 @@ public abstract class PaqueteTuristico implements Serializable {
     
     @Override
     public String toString() {
-        return "PaqueteTuristico{" + "codigo=" + codigo + ", nombre=" + nombre + ", tipologiaTurismo=" + tipologiaTurismo + ", descripcion=" + descripcion + ", origen=" + origen + ", susDestinos=" + susDestinos + ", hotel=" + hotel + ", alimentacion=" + alimentacion + ", alimentacionTodo=" + alimentacionTodo + ", vuelo=" + vuelo + ", asistencia=" + asistencia + ", tarifaDia=" + tarifaDia + ", cantidadUnidades=" + cantidadUnidades + '}';
+        return "PaqueteTuristico{"
+                + "codigo=" + codigo 
+                + ", nombre=" + nombre 
+                + ", tipologiaTurismo=" + tipologiaTurismo 
+                + ", descripcion=" + descripcion 
+                + ", origen=" + origen 
+                + ", susDestinos=" + susDestinos 
+                + ", hotel=" + hotel 
+                + ", alimentacion=" + alimentacion 
+                + ", alimentacionTodo=" + alimentacionTodo 
+                + ", vuelo=" + vuelo 
+                + ", asistencia=" + asistencia 
+                + ", tarifaDia=" + tarifaDia 
+                + ", cantidadUnidades=" + cantidadUnidades 
+                + '}';
     }
 
     public int calcularDuracionTotalDias() {

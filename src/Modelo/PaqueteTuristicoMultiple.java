@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author CARLOS DURAN
+ * @author Carlos Duran, Ivan David Bejarano Diaz, Zuri Saday Messu, Michael Steven Reyes
  */
 public final class PaqueteTuristicoMultiple extends PaqueteTuristico {
     private String obsequio;
@@ -29,7 +29,9 @@ public final class PaqueteTuristicoMultiple extends PaqueteTuristico {
     
     @Override
     public String toString() {
-        return "PaqueteTuristicoMultiple{" + "obsequio=" + obsequio + '}';
+        return "PaqueteTuristicoMultiple{" 
+                + "obsequio=" + obsequio 
+                + '}';
     }
     public int calcularValorUnidad() {
         // tarifa base * días + (1% tarifa * cantDestinos)

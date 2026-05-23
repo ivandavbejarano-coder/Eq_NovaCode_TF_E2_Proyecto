@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author CARLOS DURAN
+ * @author * @author Carlos Duran, Ivan David Bejarano Diaz, Zuri Saday Messu, Michael Steven Reyes
  */
 public final class PaqueteTuristicoUnico extends PaqueteTuristico {
     private String nombreHotel;
@@ -147,7 +147,10 @@ public final class PaqueteTuristicoUnico extends PaqueteTuristico {
 
     @Override
     public String toString() {
-        return "PaqueteTuristicoUnico{" + "nombreHotel=" + nombreHotel + ", tipoDesayuno=" + tipoDesayuno + '}';
+        return "PaqueteTuristicoUnico{" 
+                + "nombreHotel=" + nombreHotel 
+                + ", tipoDesayuno=" + tipoDesayuno 
+                + '}';
     }
     public int calcularValorUnidad() {
         return tarifaDia * calcularDuracionTotalDias();

@@ -20,7 +20,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author CARLOS DURAN
+ * @author Carlos Duran, Ivan David Bejarano Diaz, Zuri Saday Messu, Michael Steven Reyes
  */
 public class UsaGUIVenta extends javax.swing.JFrame {
     
@@ -1401,6 +1401,7 @@ public class UsaGUIVenta extends javax.swing.JFrame {
     /**
      * Exporta todas las ventas a un archivo CSV que puede abrirse como Excel.
      * Genera el archivo "ventas_exportadas.csv" en el directorio de trabajo.
+     * agregado que se implemento para hacer lo más real posible el projecto
      */
     private void exportarVentasCSV() {
         if (datosVentas.isEmpty()) {
@@ -1458,7 +1459,9 @@ public class UsaGUIVenta extends javax.swing.JFrame {
         }
         return max + 1;
     }
- 
+ /** -----
+ /** -----
+  */
     /** Formatea una venta completa para mostrar en el área de resultados */
     private String formatearVenta(Venta v) {
         StringBuilder sb = new StringBuilder();

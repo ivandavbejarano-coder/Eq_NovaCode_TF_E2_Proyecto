@@ -6,7 +6,7 @@ package Modelo;
 
 /**
  *
- * @author CARLOS DURAN
+ * * @author Carlos Duran, Ivan David Bejarano Diaz, Zuri Saday Messu, Michael Steven Reyes
  */
 import java.io.Serializable;
 import java.util.LinkedList;
@@ -58,7 +58,12 @@ public class Destino implements Serializable {
 
     @Override
     public String toString() {
-        return "Destino{" + "nombreLugar=" + nombreLugar + ", diasPermanencia=" + diasPermanencia + ", atractivos=" + atractivos + ", atractivosIncluidos=" + atractivosIncluidos + '}';
+        return "Destino{" 
+                + "nombreLugar=" + nombreLugar 
+                + ", diasPermanencia=" + diasPermanencia 
+                + ", atractivos=" + atractivos 
+                + ", atractivosIncluidos=" + atractivosIncluidos 
+                + '}';
     }
 
     

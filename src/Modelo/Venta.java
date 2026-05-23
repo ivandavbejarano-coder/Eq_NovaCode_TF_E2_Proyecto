@@ -6,7 +6,7 @@ package Modelo;
 
 /**
  *
- * @author CARLOS DURAN
+ *@author Carlos Duran, Ivan David Bejarano Diaz, Zuri Saday Messu, Michael Steven Reyes
  */
 import java.io.Serializable;
 import java.time.LocalDateTime;
@@ -94,7 +94,14 @@ public class Venta implements Serializable {
 
     @Override
     public String toString() {
-        return "Venta{" + "numero=" + numero + ", fechaHoraGeneracion=" + fechaHoraGeneracion + ", fechaHoraActualizacion=" + fechaHoraActualizacion + ", suCliente=" + suCliente + ", susPaquetesTuristicos=" + susPaquetesTuristicos + ", estado=" + estado + '}';
+        return "Venta{" 
+                + "numero=" + numero 
+                + ", fechaHoraGeneracion=" + fechaHoraGeneracion 
+                + ", fechaHoraActualizacion=" + fechaHoraActualizacion 
+                + ", suCliente=" + suCliente 
+                + ", susPaquetesTuristicos=" + susPaquetesTuristicos 
+                + ", estado=" + estado 
+                + '}';
     }
     
     

@@ -6,7 +6,7 @@ package Modelo;
 
 /**
  *
- * @author CARLOS DURAN
+ * @author Carlos Duran, Ivan David Bejarano Diaz, Zuri Saday Messu, Michael Steven Reyes
  */
 import java.io.Serializable;
 
@@ -97,7 +97,16 @@ public class Cliente implements Serializable {
 
     @Override
     public String toString() {
-        return "Cliente{" + "tipoIdentificacion=" + tipoIdentificacion + ", numeroIdentificacion=" + numeroIdentificacion + ", empresa=" + empresa + ", nombre=" + nombre + ", email=" + email + ", telefono=" + telefono + ", nombreContacto=" + nombreContacto + ", porcentajeDescuento=" + porcentajeDescuento + '}';
+        return "Cliente{"
+                + "tipoIdentificacion=" + tipoIdentificacion 
+                + ", numeroIdentificacion=" + numeroIdentificacion 
+                + ", empresa=" + empresa 
+                + ", nombre=" + nombre 
+                + ", email=" + email 
+                + ", telefono=" + telefono 
+                + ", nombreContacto=" + nombreContacto 
+                + ", porcentajeDescuento=" + porcentajeDescuento 
+                + '}';
     }
 
     }
